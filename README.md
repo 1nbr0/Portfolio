@@ -11,7 +11,7 @@ Ce portfolio aura notamment pour fonction de :
 Il s’agit d’une des premières étapes de la création de votre empreinte numérique professionnelle.
 Nous ne vous demandons pas d’ajouter du contenu sur votre site, mais de préparer sa structure.
 
-- [Sujet du Contest](enoncer)
+- [Sujet du Contest](enoncer.pdf)
 
 ## 2 - To Do List 
 
