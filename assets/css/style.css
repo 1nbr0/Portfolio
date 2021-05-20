@@ -276,6 +276,20 @@ h1 {
     padding-bottom: 5%;
 }
 
+.top_pres_4 {
+    text-align: center;
+}
+
+.background_pres_4 {
+    width: 100%;
+    background-color:  rgb(231, 231, 231);
+    height: auto;
+    box-shadow: 1px 1px 25px rgba(151, 136, 136, .35);
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 /* Fin Première Page & Présentation */
 
 /* Début Bas de Page */
