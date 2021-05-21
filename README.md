@@ -20,7 +20,7 @@ Nous ne vous demandons pas d’ajouter du contenu sur votre site, mais de prépa
 - [x] Créer page Profil, pour me présenter.
 - [x] Créer page Projets pour chaque language de programation.
 - [x] Créer page Java.
-- [ ] Créer page PHP.
+- [x] Créer page PHP.
 - [x] Créer page HTML5 & CSS3.
 - [ ] Créer page Python.
 - [ ] Créer une page par projet Java.
