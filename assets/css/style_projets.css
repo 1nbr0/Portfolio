@@ -165,11 +165,12 @@ h1 {
 }
 
 .en_tete_html_css {
-    background-image: url(../../images/html_css.jpg);
+    background-image: url(../../images/anim_html.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    animation: myAnim 5s ease 0s 1 normal forwards;
 }
 
 .en_tete_php {
@@ -1049,3 +1050,13 @@ input[type="submit"].special:active, input[type="reset"].special:active, input[t
         background-position: 50% 50%;
     }
 }
+
+@keyframes myAnimHtmlCss {
+    0% {
+      background-position: 50% 50%;
+    }
+  
+    100% {
+      background-position: 160% 50%;
+    }
+  }

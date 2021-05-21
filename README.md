@@ -23,8 +23,8 @@ Nous ne vous demandons pas d’ajouter du contenu sur votre site, mais de prépa
 - [x] Créer page PHP.
 - [x] Créer page HTML5 & CSS3.
 - [x] Créer page Python.
-- [ ] Créer une page par projet Java.
+- [x] Créer une page par projet Java.
 - [ ] Créer une page par projet HTML5 & CSS3.
-- [ ] Créer une page par projet PHP.
+- [x] Créer une page par projet PHP.
 - [ ] Créer une page par projet Python.
 - [ ] Insérez Keyframe dans tous les projets.
