@@ -173,9 +173,12 @@ h1 {
     animation: myAnim 5s ease 0s 1 normal forwards;
 }
 
+.titre-html {
+    color: white;
+}
+
 .en_tete_php {
     background-image: url(../../images/php.png);
-    /* background-size: cover; */
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -188,6 +191,7 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    animation: myAnimPython 5s ease 0s 1 normal forwards;
 }
 
 .quote {
@@ -1051,12 +1055,11 @@ input[type="submit"].special:active, input[type="reset"].special:active, input[t
     }
 }
 
-@keyframes myAnimHtmlCss {
+@keyframes myAnimPython {
     0% {
-      background-position: 50% 50%;
+        background-position: 0% 50%;
     }
-  
     100% {
-      background-position: 160% 50%;
+        background-position: 150% 50%;
     }
-  }
+}
