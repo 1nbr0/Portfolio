@@ -186,8 +186,8 @@ h1 {
 }
 
 .en_tete_python {
-    background-image: url(../../images/python.jpg);
-    background-size: cover;
+    background-image: url(../../images/anim_python.png);
+    background-color:whitesmoke;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -1060,6 +1060,6 @@ input[type="submit"].special:active, input[type="reset"].special:active, input[t
         background-position: 0% 50%;
     }
     100% {
-        background-position: 150% 50%;
+        background-position: 55% 50%;
     }
 }
