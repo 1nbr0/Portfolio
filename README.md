@@ -27,4 +27,8 @@ Nous ne vous demandons pas d’ajouter du contenu sur votre site, mais de prépa
 - [x] Créer une page par projet HTML5 & CSS3.
 - [x] Créer une page par projet PHP.
 - [x] Créer une page par projet Python.
-- [x] Insérez Keyframe dans tous les projets.
+- [x] Insérer Keyframe dans toutes les pages projets.
+- [x] Insérer Transition.
+
+#### Bonus
+- [x] Utilisation de JavaScript.

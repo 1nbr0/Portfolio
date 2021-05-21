@@ -282,7 +282,7 @@ h1 {
 
 .background_pres_4 {
     width: 100%;
-    background-color:  rgb(231, 231, 231);
+    background-color: rgb(231, 231, 231);
     height: auto;
     box-shadow: 1px 1px 25px rgba(151, 136, 136, .35);
     text-align: center;
@@ -342,6 +342,7 @@ h1 {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .CV {
     padding-left: 15px;
 }
