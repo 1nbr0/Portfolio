@@ -165,7 +165,3 @@ Recap du du 28/05/21 de 14h à 18h
 - Essaie d’envoie de notification, changer des fichiers backup et dashware pour savoir si un mail s’envoie bien au moment d’une modification dans un fichier.
 
 Le 22 Juin était mon dernier jour chez Motion4Ever.
-=======
-#### Bonus
-- [x] Utilisation de JavaScript.
->>>>>>> 1a00866927b03abd960631cdd5b1e0f870673dbc
