@@ -4,32 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template Portfolio - Projets</title>
+    <title>Template Portfolio <li></li>Rendu</title>
     <link href="../assets/css/style_projets.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <div class="page">
-        <header class="header nav-stay">
-            <h1 class="header-title">Mes Projets</h1>
-            <div id="menu-button" class="close"></div>
-        </header>
-        <nav id="menu" class="">
-            <ul>
-                <li><a href="index.html">Accueil</a>
-                <li><a href="page_profil.html">Mon Profil</a>
-                <li><a href="page_projets.html">Mes Projets</a>
-                <li><a href="page_java.html">Java</a>
-                <li><a href="page_php.html">PHP</a>
-                <li><a href="page_html_css.html">HTML & CSS</a>
-                <li><a href="page_python.html">Python</a>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <h3 class="navbar-nav ms-3">Mon Portfolio</h3>
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item me-3">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="page_profil.html">Profil</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">Rendu</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-    </div>
+    </header>
     <!-- Corps de la page -->
     <div class="en_tete">
         <div class="quote">
-            <h1>Titre</h1>
+            <h1>Mon Stage chez Motion4Ever</h1>
         </div>
     </div>
 
@@ -37,123 +43,255 @@
 
         <!-- Section -->
         <section class="wrapper style1">
-            <div class="inner">
+            <div class="inner" style="color: black;">
                 <!-- 2 Columns -->
                 <div class="flex flex-2">
-                    <div class="col col1">
-                        <div class="image round fit">
-                            <a href="page_java.html" class="link"><img src="../images/java.png" alt="java" /></a>
-                        </div>
-                    </div>
                     <div class="col col2">
-                        <h3>Maecenas a gravida quam</h3>
-                        <p>Etiam posuere hendrerit arcu, ac blandit nulla. Sed congue malesuada nibh, a varius odio
-                            vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet, enim magna cursus
-                            auctor lacinia nunc ex blandit augue. Ut vitae neque fermentum, luctus elit fermentum, porta
-                            augue. Nullam ultricies, turpis at fermentum iaculis, nunc justo dictum dui, non aliquet
-                            erat nibh non ex.</p>
-                        <p>Sed congue malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis
-                            sollicitudin aliquet, enim magna cursus auctor lacinia nunc ex blandit augue. Ut vitae neque
-                            fermentum, luctus elit fermentum, porta augue. Nullam ultricies, turpis at fermentum
-                            iaculis, nunc justo dictum dui, non aliquet erat nibh non ex. </p>
-                        <a href="page_java.html" class="button">About</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+                        <h3>Pourquoi avoir rejoins Motion4Ever ?</h3>
+                        <p>A la fin de mon année, il me fallait trouver un stage pour potentielement m'aider à trouver
+                            une alternance. Dans le même temps cela me permettais d'acquérir de l'expérience
+                            profesionnelle ainsi que d'enrichire mes hard et soft skills au sein d'une
+                            entreprise. J'ai donc envoyé une demande chez Motion4Ever et plein d'autres entreprise, dont
+                            celles que Mr Leau nous avait fournis à moi et ma classe. Je n'ai reçu aucune réponse
+                            positive sans dire aucun retour à mes envoies de mails !</p>
+                        <p>Motion4Ever a bien voulu me donner la chance de pouvoir agrandir mon experience de
+                            dèveloppement web. Et de se fait de m'accueillir au sein de leur entreprise et leur groupe
+                            de dèveloppeurs. 👩‍💻 👨‍💻
+                            Malheureusement, ce stage fut cours mais intense tout de même (1 mois). Mon tuteur de stage
+                            m'a donc mis sur un projet sur Laravel en interne de leur entreprise. 🏦 <br>
+                            J'ai réalisé des petits résumé de mes demi journées puis de mes journées
+                        </p>
+                        <h2>Travail réaliser durant mon stage chez Motion4Ever</h2>
+                        <h3>Récap du 25/05/21 de 9h à 12h</h3>
+                        <p>
+                            <ul>
+                                <li>Mise en place de l’adresse mail motion4ever.com.</li>
+                                <li>Install OpenVPN + Chat Google pour la com avec référent de stage.</li>
+                                <li>Lecture et prise de connaissance du framework Laravel avec un tuto et la doc.</li>
+                                <li>Connexion OpenVPN + GitLab</li>
+                                <li>Git clone du projet tools</li>
+                                <li>Modif homestead + hosts -> pour le dev.tools.motion4ever.net</li>
+                                <li>Ajout fichier .env.</li>
+                                <li>Découverte d’un bug sur l’install vagrant up.</li>
+                                <li>En cours de résolution du problème avec mon référent de stage.</li>
+                            </ul>
+                        </p>
+                        <h3>Récap du 25/05/21 de 14h à 18h</h3>
+                            <ul>
+                                <li>Chercher l’origine du problème pour vagrant up.</li>
+                                <li>solution au problème.</li>
+                                <li>Je me suis documenté sur plusieurs sites web différents pour trouver une solution (stackoverflow principalement) mais rien n’y fait.</li>
+                                <li>Découverte et observation du code sous Laravel.</li>
+                                <li>Explication des outils utilisé par Motion4Ever.</li>
+                            </ul>
+                            
+                            <h3>Récap du 26/05/21 de 9h à 12h</h3>
+                                <ul>
+                                    <li>Compréhension du code :</li>
+                                    <li>DashWareController et BackupController (ce sont deux fichiers sur lesquels je travaillais).</li>
+                                    <li>Install Laravel via Composer entre temps.</li>
+                                    <li>Vu ensemble réponse aux questions + travaille à effectuer + install DB.</li>
+                                </ul>
 
-        <!-- Section -->
-        <section class="wrapper style2">
-            <div class="inner">
-                <div class="flex flex-2">
-                    <div class="col col2">
-                        <h3>Suspendisse quis massa vel justo</h3>
-                        <p>Etiam posuere hendrerit arcu, ac blandit nulla. Sed congue malesuada nibh, a varius odio
-                            vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet, enim magna cursus
-                            auctor lacinia nunc ex blandit augue. Ut vitae neque fermentum, luctus elit fermentum, porta
-                            augue. Nullam ultricies, turpis at fermentum iaculis, nunc justo dictum dui, non aliquet
-                            erat nibh non ex.</p>
-                        <p>Sed congue malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis
-                            sollicitudin aliquet, enim magna cursus auctor lacinia nunc ex blandit augue. Ut vitae neque
-                            fermentum, luctus elit fermentum, porta augue. Nullam ultricies, turpis at fermentum
-                            iaculis, nunc justo dictum dui, non aliquet erat nibh non ex. </p>
-                        <a href="page_html_css.html" class="button">Learn More</a>
-                    </div>
-                    <div class="col col1 first">
-                        <div class="image round fit">
-                            <a href="page_html_css.html" class="link"><img src="../images/html_css.jpg"
-                                    alt="html_css" /></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="wrapper style1">
-            <div class="inner">
-                <!-- 2 Columns -->
-                <div class="flex flex-2">
-                    <div class="col col1">
-                        <div class="image round fit">
-                            <a href="page_php.html" class="link"><img src="../images/php.png" alt="php" /></a>
-                        </div>
-                    </div>
-                    <div class="col col2">
-                        <h3>Maecenas a gravida quam</h3>
-                        <p>Etiam posuere hendrerit arcu, ac blandit nulla. Sed congue malesuada nibh, a varius odio
-                            vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet, enim magna cursus
-                            auctor lacinia nunc ex blandit augue. Ut vitae neque fermentum, luctus elit fermentum, porta
-                            augue. Nullam ultricies, turpis at fermentum iaculis, nunc justo dictum dui, non aliquet
-                            erat nibh non ex.</p>
-                        <p>Sed congue malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis
-                            sollicitudin aliquet, enim magna cursus auctor lacinia nunc ex blandit augue. Ut vitae neque
-                            fermentum, luctus elit fermentum, porta augue. Nullam ultricies, turpis at fermentum
-                            iaculis, nunc justo dictum dui, non aliquet erat nibh non ex. </p>
-                        <a href="page_php.html" class="button">About</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+                            <h3>Récap du 26/05/21 de 14h à 18h</h3>
+                                <ul>
+                                    <li>Récupération DB du serveur à ma machine local.</li>
+                                    <li>Mise en place de la DB (import).</li>
+                                    <li>Mise en place environnement de développement.</li>
+                                    <li>Appropriation du code.</li>
+                                    <li>Test pour la page login</li>
+                                    <li>Page login fini reste le css à modifier.</li>
+                                    <li>Manque plus que le commit et le push pour l’intégrer sur le serveur.</li>
+                                </ul>
 
-        <!-- Section -->
-        <section class="wrapper style2">
-            <div class="inner">
-                <div class="flex flex-2">
-                    <div class="col col2">
-                        <h3>Suspendisse quis massa vel justo</h3>
-                        <p>Etiam posuere hendrerit arcu, ac blandit nulla. Sed congue malesuada nibh, a varius odio
-                            vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet, enim magna cursus
-                            auctor lacinia nunc ex blandit augue. Ut vitae neque fermentum, luctus elit fermentum, porta
-                            augue. Nullam ultricies, turpis at fermentum iaculis, nunc justo dictum dui, non aliquet
-                            erat nibh non ex.</p>
-                        <p>Sed congue malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis
-                            sollicitudin aliquet, enim magna cursus auctor lacinia nunc ex blandit augue. Ut vitae neque
-                            fermentum, luctus elit fermentum, porta augue. Nullam ultricies, turpis at fermentum
-                            iaculis, nunc justo dictum dui, non aliquet erat nibh non ex. </p>
-                        <a href="page_python.html" class="button">Learn More</a>
-                    </div>
-                    <div class="col col1 first">
-                        <div class="image round fit">
-                            <a href="page_python.html" class="link"><img src="../images/python.jpg" alt="python" /></a>
-                        </div>
+                            <h3>Récap du 27/05/21 de 9h à 12h</h3>
+                                <ul>
+                                    <li>Présentation des locaux.</li>
+                                    <li>Mise à dispo d’un post.</li>
+                                    <li>J’ai regardé Valentin travailler sur un projet, il m’a expliqué ce qu’il était en train de résoudre comme problème. Explication du code dans le même temps.</li>
+                                    <li>J’ai modifié le css, la page de login faite.</li>
+                                    <li>Vagrant up fonctionnel ainsi que la VM, il y a des petits soucis qu’il va falloir que je règle.</li>
+                                    <li>Git push effectué.</li>
+                                </ul>
+                            
+                            <h3>Récap du 27/05/21 de 14h à 18h</h3>
+                                <ul>
+                                    <li>Correction bug vagrant lié aux versions de composer et php.</li>
+                                    <li>Version php et composer modifié.</li>
+                                    <li>Pull de la branch develop sur ma vagrant.</li>
+                                    <li>Push de la page login sur le serveur.</li>
+                                </ul>
+                            
+                            <h3>Récap du 28/05/21 de 9h à 12h</h3>
+                                <ul>
+                                    <li>Petit problème de mise en page repéré pour la page d’accueil Toolbox.</li>
+                                    <li>Migration DB.</li>
+                                    <li>Correction index.blade.php et style.css --> problème résolu.</li>
+                                    <li>Push de la correction.</li>
+                                    <li>http ERROR 500 apparu sur la page Backups.</li>
+                                </ul>
+                            
+                            <h3>Recap du du 28/05/21 de 14h à 18h</h3>
+                                <ul>
+                                    <li>Http Erreur 500 toujours pas résolu</li>
+                                    <li>J’ai eu beaucoup de problème venant de mon pc, il est devenu extrêmement lent. Je l’ai redémarré, il semble aller mieux. J’espère ne plus rencontrer de problème comme ça sur mon pc. Je n’avance pas dans mon travail, c’est très frustrant.</li>        
+                                </ul>
+                            <h3>Récap du 31/05/21 de 9h à 12h</h3>
+                                <ul>
+                                    <li>Fichier hosts passé en exception sur Btdefender → prends pas en compte et continue de se commenter.</li>
+                                    <li>Toujours en train de debug l’erreur 500. Cette erreur est présente que sur la page Backups.</li>
+                                    <li>Réflexion et start d’une maquette pour la page Backups. Je m’inspire du Bootstrap qu'ils avaient déjà utilisé pour le Toolbox.</li>
+                                </ul>
+                            
+                            <h3>Récap du 31/05/21 de 14h à 18h</h3>
+                                <ul>
+                                    <li>Correction de l’erreur 500 → causé par des différences de versions.</li>
+                                    <li>Re explication de la structure des pages Backups.</li>
+                                </ul>
+
+                            <h3>Récap du 01/06/21 de 9h à 12h</h3>
+                                <ul>
+                                    <li>J’ai cherché l’origine du problème, au bout d’un certain temps j’ai trouvé.</li>
+                                    <li>Je cherche maintenant à régler le souci en regardant plus attentivement à quel endroit ça bloque. (avec des var_dump() ; exit; ).</li>
+                                </ul>
+                            
+                            <h3>Récap du 01/06/21 de 14h à 18h</h3>
+                                <ul>
+                                    <li>J’ai cherché toute l’après midi dans le code d’où pouvait venir le problème.</li>
+                                    <li>J’ai cherché des solutions pour modifier l’encodage,</li>
+                                    <li>Passage des fichiers txt qui étaient en CRLF en LF pour éviter les retours à la ligne.</li>
+                                    <li>Je vais pouvoir travailler sur la mise en page des Backups.</li>
+                                </ul>
+                            
+                            <h3>Récap du 02/06/21 de 9h à 12h</h3>
+                                <ul>
+                                    <li>Mise en page Backups sur une ligne.</li>
+                                    <li>Récupération et Intégration du 6eme backups.</li>
+                                    <li>Réflexion sur les future tableaux.</li>
+                                </ul>
+                            
+                            <h3>Récap de la journée du 03/06/21</h3>
+                                <ul>
+                                    <li>J’ai repris le tableau mis à disposition dans d’autres pages pour l’inclure sur la page backups.</li>
+                                    <li>J’ai modifié en fonction des données à recueillir des pages PROD BACKUP 1 à 6 dans le tableau.</li>
+                                    <li>Toutes les données sont correctes. Il reste tout de même un petit souci au niveau des dates qui ne sont pas les plus récente mais les plus anciennes.</li>
+                                    <li>Petit souci au niveau du push, j’ai été maladroit, rectification et push effectué correctement à la suite de la correction du souci.</li>
+                                    <li>Mise en page de la popin. Toujours en cours.</li>
+                                </ul>
+                            
+                            <h3>Récap de la journée du 04/06/21</h3>
+                                <ul>
+                                    <li>Mise en page de la popin.</li>
+                                    <li>J’ai eu des soucis avec le VPN le matin, difficile d’avancer.</li>
+                                    <li>Puis un souci avec les envois du fichier style.css sur le ftp due au souci avec le VPN.</li>
+                                    <li>J’ai fait une boulette à ne pas enregistrer le style.css en local (ça m’apprendra).</li>
+                                    <li>J’ai donc refait, en début d’après-midi, la mise en forme de la popin puis j’ai peaufiné la popin pour la rapprocher au plus près de l’exemple que mon tuteur m’a fourni.</li>
+                                </ul>
+                            
+                            <h3>Récap de la journée du 07/06/21</h3>
+                                <ul>
+                                    <li>Travaille de réflexion sur la mise en place correct de BackupCommand.</li>
+                                    <li>Recherche autour du code pour trouver les meilleures possibilités de tables en base de données.</li>
+                                    <li>Deux tables sont ressorties de notre recherche, mise en place de Model. → A continuer.</li>
+                                </ul>
+                            
+                            <h3>Récap de la journée du 08/06/21</h3>
+                                <ul>
+                                    <li>Création des fichiers migrations pour créer les tables et les colonnes.</li>
+                                    <li>J’ai suivis la documentation Laravel + des tutos pour comprendre comment ça fonctionne.</li>
+                                </ul>
+                            
+                            <h3>Récap de la journée du 09/06/21</h3>
+                                <ul>
+                                    <li>J’ai suivi la documentation Laravel + des tutos pour comprendre comment ça fonctionne. Je me suis embrouillé avec le tuto j’ai donc repris de zéro.</li>
+                                    <li>J’ai dû faire face à une erreur (encore) qui a été corrigée, je n’avais plus de DB homestead.</li>
+                                    <li>J’ai re écrit les colonnes à mettre dans les tables.</li>
+                                    <li>J’ai repris et je me suis aidé quand nécessaire des autres migrations déjà faites.</li>
+                                </ul>
+                            
+                            <h3>Récap de la journée du 10/06/21</h3>
+                                <ul>
+                                    <li>Je me suis attardé sur les inserts dans les deux tables que j’ai créés hier.</li>
+                                    <li>J’ai beaucoup cherché en m’aidant de la doc et de tuto pour comprendre et ensuite re transcrire ce que j’ai lu et vu sur les Commands.</li>
+                                    <li>Je ne suis pas sur du résultat pour l’instant.</li>
+                                </ul>
+                            
+                            <h3>Récap de la journée du 11/06/21</h3>
+                                <ul>
+                                    <li>J’ai regardé ce les modifs que tu as fait pour les Commands et la mise en BDD des valeurs.</li>
+                                    <li>Je travail sur le front et la récupération des données qui sont présentes dans la BDD.</li>
+                                    <li>J’ai réussi à récupérer ces données.</li>
+                                    <li>Reste à faire le front.</li>
+                                </ul>
+                            
+                            <h3>Récap de la journée du 14/06/21</h3>
+                                <ul>
+                                    <li>Récupération des données en BDD.</li>
+                                    <li>Json_decode des données +trie des données.</li>
+                                    <li>Affichage en front des données en cours.</li>
+                                </ul>
+                            
+                            <h3>Récap de la journée du 15/06/21</h3>
+                                <ul>
+                                    <li>Travaille sur le front.</li>
+                                    <li>Récupération des données des deux tables pour affichage dans le tableau interactif.</li>
+                                    <li>Commenter le code.</li>
+                                </ul>
+
+                            <h3>Récap de la journée du 16/06/21</h3>
+                                <ul>
+                                    <li>Push du Front de la page Backup.</li>
+                                    <li>Analyse du code pour envoyer une notification par mail, push en décommentant le code pour envoyer une notif.</li>
+                                    <li>Regarder si DashWare et ses données sont en BDD.</li>
+                                    <li>Création DashWareCommand.</li>
+                                </ul>
+                            
+                            <h3>Récap de la journée du 17/06/21</h3>
+                                <ul>
+                                    <li>Création DashWareCommand.</li>
+                                    <li>Création Model + Migration pour le DashWareCommand.</li>
+                                    <li>Récupérer information de la variable $data à insert en BDD.</li>
+                                    <li>Ecrire le code pour créer les colonnes et récupérer données puis les inserts dans la table en question.</li>
+                                    <li>Création de la table dashwares avec les colonnes.</li>
+                                </ul>
+                            
+                            <h3>Récap de la journée du 18/06/21</h3>
+                                <ul>
+                                    <li>Envoie des données en BDD.</li>
+                                    <li>Rectification d’erreurs et de type de colonne et du code.</li>
+                                    <li>Récupération des données de la table dashwares pour affichage.</li>
+                                    <li>Modification du code dans le dashware.blade.php.</li>
+                                    <li>Affichage en front des données.</li>
+                                    <li>Problème avec le déclenchement des popin (JS) à corriger.</li>
+                                </ul>
+
+                            <h3>Récap de la journée du 21/06/21</h3>
+                                <ul>
+                                    <li>Problème avec le déclenchement des popin (JS) pas résolue, j’ai cherché à comprendre comment elle se déclenchaient mais pas trouvé.</li>
+                                    <li>Problème au niveau de l’affichage des fichiers erronés dans les popin.</li>
+                                    <li>Travail de recherche également sur les erreurs liées aux notifications.</li>
+                                    <li>Correction de ces erreurs.</li>
+                                    <li>Essaie d’envoie de notification, changer des fichiers backup et dashware pour savoir si un mail s’envoie bien au moment d’une modification dans un fichier.</li>
+                                </ul>
+                            <h3>Le 22 Juin était mon dernier jour chez Motion4Ever.</h3>
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
     </div>
-
-
     <!-- Bas de page -->
-    <footer class="footer_menu">
+    <footer class="footer_menu bg-secondary">
         <div class="footer_bloc_mid">
             <div id="nav">
-                <h2>Navigation</h2>
+                <h4>Navigation</h4>
             </div>
             <div id="info_perso">
-                <a href="page_profil.html" target="_blank">Profil</a>
-                <a href="page_projets.html">Mes Projets</a>
+                <a href="page_profil.html">Profil</a>
+                <a href="page_projets.html">Rendu</a>
             </div>
             <div id="reseaux">
-                <h3>Retrouvez moi</h3>
+                <h4>Retrouvez moi</h4>
                 <ul>
                     <li class="insta">
                         <a href="https://www.instagram.com/robinturpin8000/"><img src="../images/instagram.png"
@@ -178,7 +316,16 @@
             </div>
         </div>
     </footer>
-    <script src="../assets/js/app.js"></script>
+    <script src="https://kit.fontawesome.com/b38753fb63.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
